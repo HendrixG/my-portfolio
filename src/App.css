@@ -1,0 +1,95 @@
+:root {
+  --card-max-width: 700px;
+}
+
+.card-inner {
+  padding: 2rem 1.5rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #878787;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+
+.app-wrapper {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.projects {
+  width: 100%;
+  max-width: var(--card-max-width);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.header-card,
+.project-card-link {
+  width: 100%;
+  max-width: var(--card-max-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-card {
+  background: #1e293b;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: var(--card-max-width);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+.project-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.project-card {
+  width: 100%;
+  background: white;
+  color: #111;
+  border-radius: 12px;
+  padding: 0;
+  text-align: center;
+  border: 3px solid transparent;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: 
+    border-color 0.3s ease; 
+}
+
+.project-card:hover {
+  
+  border-color: #213547;
+  cursor: pointer;
+}
+
+
+
+
+

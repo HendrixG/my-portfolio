@@ -91,25 +91,36 @@ body {
 
 @media (max-width: 768px) {
   .card-inner {
-    padding: 1.5rem 1rem; 
+    padding: 1.5rem 1rem;
   }
 
   .header-card h1 {
     font-size: 1.75rem;
   }
 
-  .header-card h2 {
-    font-size: 1.25rem;
-  }
-
+  .header-card h2,
   .project-card h2 {
     font-size: 1.25rem;
   }
 
   .projects {
-    padding: 0 0.5rem; 
+    padding: 0 1rem;
+  }
+
+  .app-wrapper {
+    padding: 1rem;
+  }
+
+  .project-card {
+    font-size: 0.95rem;
+  }
+
+  .project-card h2 {
+    word-break: break-word;
+    hyphens: auto;
   }
 }
+
 
 
 

@@ -5,7 +5,7 @@ export const projects = [
   },
     {
     title: 'Create a User Account and Favorite an Item',
-    link: 'https://main.dcx90gd0d27sc.amplifyapp.com/profile',
+    link: 'https://main.d25vfqcbsjj44i.amplifyapp.com/profile',
   },
     {
     title: 'Chess Game with a Dynamic Move History Component',

@@ -89,6 +89,28 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .card-inner {
+    padding: 1.5rem 1rem; 
+  }
+
+  .header-card h1 {
+    font-size: 1.75rem;
+  }
+
+  .header-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .project-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .projects {
+    padding: 0 0.5rem; 
+  }
+}
+
 
 
 

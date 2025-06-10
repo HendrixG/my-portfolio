@@ -4,8 +4,9 @@ export const projects = [
     link: 'https://main.d190wbcxgge63h.amplifyapp.com/videoPlayer',
   },
     {
-    title: 'Create a User Account and Favorite an Item',
+    title: 'Dynamic Weather App',
     link: 'https://main.d25vfqcbsjj44i.amplifyapp.com/profile',
+    // ADD CORRECT LINK!!!!
   },
     {
     title: 'Chess Game with a Dynamic Move History Component',

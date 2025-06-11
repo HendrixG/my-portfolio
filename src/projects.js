@@ -5,7 +5,7 @@ export const projects = [
   },
     {
     title: 'Dynamic Weather App',
-    link: 'https://main.d25vfqcbsjj44i.amplifyapp.com/profile',
+    link: 'https://main.d2jgi8mdnesk4y.amplifyapp.com/',
     // ADD CORRECT LINK!!!!
   },
     {
